@@ -1,8 +1,7 @@
-
 import { GoogleGenAI } from "@google/genai";
 
 // API Key provided by the user
-const API_KEY = "AIzaSyB1no1FwjzfW6ylAC1QKJ4VF4io3JGc4Ck";
+const API_KEY = "AIzaSyBkOzRsRyYOfDN_JR2b9acnjILpPCuiRKw";
 
 const fileToGenerativePart = async (file: File) => {
   const base64EncodedData = await new Promise<string>((resolve, reject) => {
